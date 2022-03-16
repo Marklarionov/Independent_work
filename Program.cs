@@ -12,7 +12,7 @@ namespace Independent_work
         {
             //--1--
 
-            /*Console.WriteLine("Enter a string of arbitrary length:");
+            Console.WriteLine("Enter a string of arbitrary length:");
             string str = Console.ReadLine();
             Console.WriteLine("Enter a character to find the percentage of its occurrence in a string:");
             char sum = Console.ReadKey().KeyChar;
@@ -28,7 +28,7 @@ namespace Independent_work
                 }
             }
             double protsent = (Convert.ToDouble(counter) / Convert.ToDouble(str.Length)) * 100;
-            Console.WriteLine($"Character occurrence percentage {sum} equals  {Math.Round(protsent, 2)}%");*/
+            Console.WriteLine($"Character occurrence percentage {sum} equals  {Math.Round(protsent, 2)}%");
 
             //--2--
 
@@ -61,7 +61,7 @@ namespace Independent_work
             }
             Console.WriteLine("Max element " + max);
             
-            //--3--
+            //--3-- NOT READY
             
             /*string[,] inimene = new string[3, 2];
             Console.WriteLine("Write your name,surname and group");
